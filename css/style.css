@@ -1,0 +1,147 @@
+a:hover { text-decoration: none; }
+
+body { padding-top: 70px;
+       font-family: 'Palanquin', sans-serif;
+       font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+  background-color: #fff;
+  border-bottom: black;
+  border-bottom-width: thin;
+  border-bottom-style: solid;
+}
+
+.work-background{
+  background: #000;
+}
+
+h2{
+  padding: 2%;
+}
+
+#welcome{
+  /*height: 100vmax;*/
+  text-align: center;
+}
+
+#welcome > :first-child{
+/*  margin-top: 10vh;
+*/}
+
+#welcome > :last-child{
+/*  margin-top: 30vh;*/
+}
+
+.welcome-content{
+    animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -webkit-animation: fadein 2s;
+    -o-animation: fadein 2s;
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+  .work-section1{
+    background-image: url("/images/aspire-SE-2560v2.png");
+    background-size: cover;
+    height: 200px;
+  }
+
+  .work-section1:hover{
+    background-image: url("/images/aspire-SE-2560.png");
+    background-size: cover;
+    height: 200px;
+  }
+
+   .fade:hover .work-section-text{
+    color: transparent;
+  }
+
+   .fade:hover .work-section-header{
+    color: transparent;
+  }
+
+  .work-section2{
+    background-image: url("/images/calcv2.png");
+    background-size: cover;
+    height: 200px;
+  }
+
+  .work-section2:hover{
+    background-image: url("/images/calc.png");
+    background-size: cover;
+    height: 200px;
+  }
+
+  .work-section3{
+    background-image: url("/images/code-2325v2.png");
+    background-size: cover;
+    height: 200px;
+  }
+
+  .work-section3:hover{
+    background-image: url("/images/code-2325.png");
+    background-size: cover;
+    height: 200px;
+  }
+
+  .work-section-header{
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+    font-weight: 800;
+  }
+
+  .work-section-text{
+    text-align: center;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 800;
+  }
+
+  .fade
+  {
+          opacity:0.5;
+  }
+  .fade:hover
+  {
+          opacity:1;
+  }
+
+.content{text-align: center;width: 80%; margin: 0 auto;}
+  .content > h3,h4{padding-top: 2%;}
+  .content > p {padding: 1%;}
+
+#poweredby{background-color: whitesmoke;}
+#poweredby > .content > h4 {text-align: left;}
