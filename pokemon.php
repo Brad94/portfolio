@@ -7,11 +7,11 @@ include 'header.php';
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <a class="navbar-brand" href="#">Bradley Pollard</a>
+  <a class="navbar-brand" href="main.php">Bradley Pollard</a>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="main.php">Home</a>
       </li>
       <li>
         <a class="nav-link" href="skills.php">Skills</a>
@@ -27,40 +27,37 @@ include 'header.php';
     </ul>
   </div>
 </nav>
-  </div>
-  </header>
-  <div id="welcome">
-  <h2 class="welcome-content">I'm Bradley Pollard.</h2>
-  <h2 class="welcome-content">A Web Technologies Graduate from the UK.</H2>
-  </div>
-<div>
-<h2>Work</h2>
-<div class="work-background">
-<a href="aspire.php">
-  <div class="fade work-section1">
-    <h2 class="work-section-header">Aspire Access Courses</h2>
-    <p class="work-section-text">Elearning platform</p>
-  </div>
-</a>
 </div>
-<div class="work-background">
-<a href="calculator.php">
-  <div class="fade work-section2">
-    <h2 class="work-section-header">Apportionment Calculator</h2>
-    <p class="work-section-text">Calculator for solicitor </p>
-  </div>
-</a>
-</div>
-<div class="work-background">
-<a href="raspberry.php">
-  <div class="fade work-section3">
-    <h2 class="work-section-header">RaspSec</h2>
-    <p class="work-section-text">Raspberry Pi Security Project</p>
-  </div>
-</a>
-</div>
+</header>
+
+<div class="content">
+<h2>Pok&eacutemon Garage</h2>
+<a href="pokemon-live.php" target="_blank">Project Link</a>
+<h3>The Task</h3>
+<p>Develop an application that inputs moves and Pokémons tod etermine how effective certain moves are against certain Pokémons.</p>
+</p>
+<script src="https://gist.github.com/Brad94/fc965e415381df91a623201b6e8e924f.js"></script>
+
 
 </div>
+
+<!-- <div id="poweredby">
+  <div class="content">
+  <h4>Powered By</h4>
+  <img srcset="images/raspberry_pi_logo_text_rgb_77x85.png 85w,
+               images/raspberry_pi_logo_text_rgb_113x125.png 125w,
+               images/raspberry_pi_logo_text_rgb_180x200.png 200w"
+        sizes="(max-width: 420px) 30vw, (max-width: 900px) 25vw, 200px"/>
+
+  <img srcset="images/aws_logo_web_100px.png 100w,
+               images/aws_logo_web_200px.png 200w,
+               images/aws_logo_web_300px.png 300w"
+        sizes="(max-width: 420px) 30vw, (max-width: 900px) 25vw, 300px">
+  </div>
+</div> -->
+
 <?php
+
 include 'footer.php';
+
 ?>

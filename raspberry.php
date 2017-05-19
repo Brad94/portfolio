@@ -13,12 +13,22 @@ include 'header.php';
       <li class="nav-item active">
         <a class="nav-link" href="main.php">Home</a>
       </li>
+      <li>
+        <a class="nav-link" href="skills.php">Skills</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Mini-projects</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="garage.php">Garage</a>
+          <a class="dropdown-item" href="pokemon.php">Pok&eacutemon</a>
+          <a class="dropdown-item" href="paragraph.php">Paragraph Changer</a>
+          <a class="dropdown-item" href="ci.php">Continuous Integration</a>
+      </li>
     </ul>
   </div>
 </nav>
-  </div>
-  </header>
-
+</div>
+</header>
 <div class="content">
 <h2>RaspSec</h2>
 

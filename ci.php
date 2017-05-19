@@ -27,34 +27,37 @@ include 'header.php';
     </ul>
   </div>
 </nav>
-  </div>
-  </header>
-<div class="content">
-<h2>Aspire Access Courses</h2>
+</div>
+</header>
 
-<h3>The Problem</h3>
-<p>Aspire Access Courses needed a brand new e-learning platform to provide Access to Higher Education courses. </p>
+<div class="content">
+<h2>Continuous Integration</h2>
 
 <h3>The Task</h3>
-<p></p>
+<p>Write Bash scripts to install Jenkins, Maven, Jira, Java and Github then write a Vagrant file which creates a new VM and installs all the required programs.</p>
 </div>
 
-<div id="poweredby">
+<!-- <div id="poweredby">
   <div class="content">
   <h4>Powered By</h4>
+  <img srcset="images/raspberry_pi_logo_text_rgb_77x85.png 85w,
+               images/raspberry_pi_logo_text_rgb_113x125.png 125w,
+               images/raspberry_pi_logo_text_rgb_180x200.png 200w"
+        sizes="(max-width: 420px) 30vw, (max-width: 900px) 25vw, 200px"/>
+
   <img srcset="images/aws_logo_web_100px.png 100w,
                images/aws_logo_web_200px.png 200w,
                images/aws_logo_web_300px.png 300w"
         sizes="(max-width: 420px) 30vw, (max-width: 900px) 25vw, 300px">
   </div>
-</div>
+</div> -->
 <div class="content">
-<h3>The Solution</h3>
-<p>Commissioned a Moodle website for a national education company to sell access to higher education courses, commissioning the server, installing the required services, installing and configuring Moodle. After which designed Moodle pages based on style guide, and worked closely with the project manager to standardise all the courses written by the teachers and upload them to Moodle in an easy to read / use format for students.</p>
-<img srcset="images/aspire-SE-2560.png 2560w,
-      images/aspire-SE-1280.png 1280w,
-      images/aspire-SE-640.png  640w"
-      sizes="80vw">
+<script src="https://gist.github.com/Brad94/ee1788c90a004879c07d08a659039f25.js"></script>
+<!-- <h3>The Solution</h3>
+<p>Developed a security application using purely Web technologies such as HTML5, CSS3, NodeJS, MQTT, Amazon Web Services (AWS) Internet of Things and AWS S3 for use with a Raspberry Pi Zero. The application is to be used in a home environment for a cost-effective way to maintain home security, future plans include a complete home security solution with the introduction of motion sensors and audible alarms. Open sourcing the project in the future is also a strong possibility. --></p>
+
+<!-- <img srcset="images/code-2325.png 2325w"
+      sizes="80vw"> -->
 </div>
 <?php
 

@@ -23,39 +23,40 @@ include 'header.php';
           <a class="dropdown-item" href="pokemon.php">Pok&eacutemon</a>
           <a class="dropdown-item" href="paragraph.php">Paragraph Changer</a>
           <a class="dropdown-item" href="ci.php">Continuous Integration</a>
+
       </li>
     </ul>
   </div>
 </nav>
-  </div>
-  </header>
+</div>
+</header>
+
 <div class="content">
-<h2>Aspire Access Courses</h2>
-
-<h3>The Problem</h3>
-<p>Aspire Access Courses needed a brand new e-learning platform to provide Access to Higher Education courses. </p>
-
+<h2>JavaScript Paragraph Changer</h2>
+<a href="paragraph-live.php" target="_blank">Project Link</a>
 <h3>The Task</h3>
-<p></p>
+<ul style="text-align: left">
+<li>In JS, create a function that creates a paragraph tag.</li>
+<li>Another function that changes the text of that paragraph tag to what is in a textbox.</li>
+<li>Another function that deletes the paragraph tag.</li>
+</ul>
+<script src="https://gist.github.com/Brad94/372c54a1ef1fa1f120a91e9848a52a9a.js"></script>
 </div>
 
-<div id="poweredby">
+<!-- <div id="poweredby">
   <div class="content">
   <h4>Powered By</h4>
+  <img srcset="images/raspberry_pi_logo_text_rgb_77x85.png 85w,
+               images/raspberry_pi_logo_text_rgb_113x125.png 125w,
+               images/raspberry_pi_logo_text_rgb_180x200.png 200w"
+        sizes="(max-width: 420px) 30vw, (max-width: 900px) 25vw, 200px"/>
+
   <img srcset="images/aws_logo_web_100px.png 100w,
                images/aws_logo_web_200px.png 200w,
                images/aws_logo_web_300px.png 300w"
         sizes="(max-width: 420px) 30vw, (max-width: 900px) 25vw, 300px">
   </div>
-</div>
-<div class="content">
-<h3>The Solution</h3>
-<p>Commissioned a Moodle website for a national education company to sell access to higher education courses, commissioning the server, installing the required services, installing and configuring Moodle. After which designed Moodle pages based on style guide, and worked closely with the project manager to standardise all the courses written by the teachers and upload them to Moodle in an easy to read / use format for students.</p>
-<img srcset="images/aspire-SE-2560.png 2560w,
-      images/aspire-SE-1280.png 1280w,
-      images/aspire-SE-640.png  640w"
-      sizes="80vw">
-</div>
+</div> -->
 <?php
 
 include 'footer.php';
