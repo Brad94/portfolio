@@ -52,7 +52,7 @@ include 'header.php';
   </div>
 </div> -->
 <div class="content">
-<script src="https://gist.github.com/Brad94/ee1788c90a004879c07d08a659039f25.js"></script>
+<script src="https://gist.github.com/Brad94/7a00f8dfc14a809d086d81c69826ea50.js"></script>
 <!-- <h3>The Solution</h3>
 <p>Developed a security application using purely Web technologies such as HTML5, CSS3, NodeJS, MQTT, Amazon Web Services (AWS) Internet of Things and AWS S3 for use with a Raspberry Pi Zero. The application is to be used in a home environment for a cost-effective way to maintain home security, future plans include a complete home security solution with the introduction of motion sensors and audible alarms. Open sourcing the project in the future is also a strong possibility. --></p>
 
